@@ -1,0 +1,142 @@
+.body {
+    background-color: #0A3871;
+    font-size: 16px; 
+    margin: 0 auto; 
+    max-width: 1200px; 
+    padding: 20px; 
+}
+
+.cuerpo-encriptador{
+    position: relative;
+}
+
+.fondo {
+    position: absolute;
+    width: 1240px;
+    height: 630px;
+    top: 360px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #789CE1;
+    border-radius: 86px;
+    z-index: -1; 
+}
+
+.titulo{
+    position: absolute;
+    top: 1%;
+    left: 25%;
+}
+
+
+.texto-encriptar{
+    position: relative;
+
+}
+
+
+#texto{
+    position: absolute;
+    left: 79px;
+    top: 168px;
+    width: 627px;
+    height: 294px;
+    font-size: 32px;
+    background-color: transparent;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0;
+    resize: none;
+    outline: none;
+
+}
+
+.rectangulo-texto{
+    position: absolute;
+    left: 39px;
+    top: 100px;
+    width: 711px;
+    height: 421px;
+    background-color: #ffffff;
+    border-radius: 70px;
+    z-index: -1; 
+}
+
+
+#mensaje{
+    position: absolute;
+    left: 830px;
+    top: 119px;
+    width: 283px;
+    height: 389px;
+    font-size: 24px;
+    color: #0A3871;
+    background-color: transparent;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0;
+    resize: none;
+    outline: none;
+}
+
+
+.rectangulo {
+    position: absolute;
+    left: 774px;
+    top: 100px;
+    width: 398px;
+    height: 497px;
+    background-color: #ffffff;
+    border-radius: 70px;
+    z-index: -1; 
+    background-image: url(img/Lupa.svg); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    }
+
+
+.advertencia{
+    position: absolute;
+    top: 520px;
+    left: 130px;
+    color: white;
+}
+
+
+.btnCopiar{
+    position: absolute;
+    left: 830px;
+    top: 575px;
+    width: 300px;
+    height: 70px;
+    background-color: rgba(10, 56, 113, 1);
+    color: #fcfcfc;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    z-index: 1; 
+}
+
+
+.btn{
+    position: relative;
+    left: 100px;
+    top: 575px;
+}
+
+.btnEncriptar{
+    width: 300px;
+    height: 70px;
+    background-color: rgba(10, 56, 113, 1);
+    color: #D8DFE8;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.btnDesencriptar{
+    width: 300px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+}   
