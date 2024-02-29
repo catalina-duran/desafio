@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewppoert" content="width-device-width,
+        initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Encriptador</title>
+
+    </head>
+
+    <section class="cuerpo-encriptador">
+
+        <div class="fondo"></div>
+
+        <body class="body">
+            <main class="main">
+
+                <img class="titulo" src="img/Group 10.svg"
+                    alt="titulo encriptador">
+
+                <section class=texto-encriptar>
+                    <div class="rectangulo-texto"></div>
+                    <textarea id="texto"
+                        placeholder="Texto encriptado"></textarea>
+                </section>
+
+                <textarea readonly id="mensaje"></textarea>
+
+                <div class="rectangulo"></div>
+
+                <img class="exclamacion"
+                    src="img/bi_exclamation-circle-fill.png" alt="exclamacion"
+                    style="
+                    position: absolute;
+                    top: 536px;
+                    left: 100px;">
+
+                <p class="advertencia">Solo letras minúsculas y sin acentos</p>
+
+                <button class="btnCopiar">copiar</button>
+
+                <div class="btn">
+                    <button class="btnEncriptar" onclick="btnEncriptar()">
+                        Encriptar </button>
+                    <button class="btnDesencriptar" onclick="btnDesencriptar()">
+                        Desencriptar </button>    
+                </div>
+
+            </section>
+            <script src="script.js"></script>
+        </main>
+    </body>
+</html>
